@@ -1,8 +1,7 @@
 // #include <stdio.h>
 #include <stdint.h>
 
-#include <uapi.h>
-#include <shield.h>
+//#include <uapi.h>
 
 uint32_t __stack_chk_guard = 0;
 
