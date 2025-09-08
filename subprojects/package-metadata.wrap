@@ -1,0 +1,7 @@
+[wrap-git]
+url = https://github.com/camelot-os/sentry-package-metadata.git
+revision = change_outpost_to_camelot
+depth = 1
+
+[provide]
+package-metadata = package-metadata_dep
