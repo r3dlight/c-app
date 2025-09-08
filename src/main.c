@@ -1,5 +1,6 @@
 
 #include <stdio.h>
+#include <rand.h>
 
 int main(void)
 {   int random_number;
