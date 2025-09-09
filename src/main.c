@@ -2,6 +2,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdint.h>
+typedef int ssize_t;
 #include <sys/random.h>
 
 int main(void)
