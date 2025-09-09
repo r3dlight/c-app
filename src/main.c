@@ -1,5 +1,6 @@
 
 #include <stdio.h>
+#include <shield/rand.h>
 
 int main(void)
 {   
