@@ -1,6 +1,7 @@
 
 #include <stdio.h>
-#include <shield/rand.h>
+#include <stdlib.h>
+#include <sys/random.h>
 
 int main(void)
 {   
