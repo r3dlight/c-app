@@ -2,12 +2,12 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdint.h>
-#include <sys/random.h>
+#include <sys/rand.h>
 
 int main(void)
 {   
     int random_number;
-    random_number = rand();
+    getrandom(&random_number, sizeof(random_number), 0);
     printf("Hello, World from sample C app\n");
     printf("Random number is %d.\n", random_number);
     return 0;
